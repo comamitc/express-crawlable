@@ -5,7 +5,6 @@ var page = require("webpage").create();
 var url = system.args[1];
 
 page.open(url, function(status) {
-
   var pageContent = page.evaluate(function() {
     return document.getElementsByTagName("html")[0].innerHTML;
   });
@@ -13,5 +12,4 @@ page.open(url, function(status) {
   console.log(pageContent);
 
   phantom.exit();
-
 });

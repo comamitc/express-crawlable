@@ -10,7 +10,6 @@ var expressCrawlable = function expressCrawlable(appState) {
     var escapedFragment = new RegExp("^/_escaped_fragment_/.*");
 
     if (escapedFragment.test(urlPath)) {
-
       var pageRender =  path.join(__dirname, "src/pageRender.js");
 
       var appUrl = url.format({
@@ -25,13 +24,11 @@ var expressCrawlable = function expressCrawlable(appState) {
       ];
 
       return childProcess.execFile(binPath, childArgs, function(err, stdout, stderr) {
-
         res.writeHead(200, {
             "Content-Type": "text/html; charset=UTF-8"
         });
 
         return res.end( "<!doctype html><html>" + stdout + "</html>" );
-
       });
     }
 
