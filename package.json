@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/comamitc/express-crawlable/issues"
   },
-  "homepage": "https://github.com/comamitc/express-crawlable/blob/master/README.md"
+  "homepage": "https://github.com/comamitc/express-crawlable/blob/master/README.md",
+  "dependencies": {
+    "phantomjs": "1.9.19"
+  }
 }
