@@ -1,0 +1,29 @@
+{
+  "name": "express-crawlable",
+  "version": "1.0.0",
+  "description": "Middleware for making a express driven SPA application crawlable",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comamitc/express-crawlable.git"
+  },
+  "keywords": [
+    "express",
+    "seo",
+    "google",
+    "spa",
+    "bot"
+  ],
+  "author": "Mitch Comardo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comamitc/express-crawlable/issues"
+  },
+  "homepage": "https://github.com/comamitc/express-crawlable/blob/master/README.md"
+}
